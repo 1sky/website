@@ -1,7 +1,7 @@
-$(function(){
-  $("#fullpage").fullpage({
+$(document).ready(function(){
+	$("#fullpage").fullpage({
     anchors:["shouye","a","b","c","d","e"],
-    scrollBar:true,
+    scrollBar:true
   })
 })
 var geren=angular.module("geren",[])
